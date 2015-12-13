@@ -13,6 +13,12 @@
 		1B1A87F61B2D473400528FEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B1A87F51B2D473400528FEA /* Images.xcassets */; };
 		1B1A87F91B2D473400528FEA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B1A87F71B2D473400528FEA /* LaunchScreen.xib */; };
 		1B1A88051B2D473400528FEA /* TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1A88041B2D473400528FEA /* TimerTests.swift */; };
+		1B1A880F1B2D48FA00528FEA /* 宇宙.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B1A880E1B2D48FA00528FEA /* 宇宙.jpg */; };
+		1B1A88111B2D53A500528FEA /* kakutei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B1A88101B2D53A500528FEA /* kakutei.jpg */; };
+		1B33C2DF1BC0E3460068B99D /* 海.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B33C2DE1BC0E3460068B99D /* 海.jpg */; };
+		1B33C2E11BC0E4370068B99D /* デジタル.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B33C2E01BC0E4370068B99D /* デジタル.jpg */; };
+		1B33C2E31BC0E58B0068B99D /* dejitaru2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1B33C2E21BC0E58B0068B99D /* dejitaru2.jpg */; };
+		1BC144A01BC0D2E900039BFE /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC1449F1BC0D2E900039BFE /* TimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		1B1A87FE1B2D473400528FEA /* TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B1A88031B2D473400528FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B1A88041B2D473400528FEA /* TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTests.swift; sourceTree = "<group>"; };
+		1B1A880E1B2D48FA00528FEA /* 宇宙.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "宇宙.jpg"; sourceTree = "<group>"; };
+		1B1A88101B2D53A500528FEA /* kakutei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kakutei.jpg; sourceTree = "<group>"; };
+		1B33C2DE1BC0E3460068B99D /* 海.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海.jpg"; sourceTree = "<group>"; };
+		1B33C2E01BC0E4370068B99D /* デジタル.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "デジタル.jpg"; sourceTree = "<group>"; };
+		1B33C2E21BC0E58B0068B99D /* dejitaru2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dejitaru2.jpg; sourceTree = "<group>"; };
+		1BC1449F1BC0D2E900039BFE /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +89,14 @@
 		1B1A87EB1B2D473400528FEA /* Timer */ = {
 			isa = PBXGroup;
 			children = (
+				1B1A88101B2D53A500528FEA /* kakutei.jpg */,
+				1B33C2DE1BC0E3460068B99D /* 海.jpg */,
+				1B33C2E21BC0E58B0068B99D /* dejitaru2.jpg */,
+				1B1A880E1B2D48FA00528FEA /* 宇宙.jpg */,
 				1B1A87EE1B2D473400528FEA /* AppDelegate.swift */,
 				1B1A87F01B2D473400528FEA /* ViewController.swift */,
+				1B33C2E01BC0E4370068B99D /* デジタル.jpg */,
+				1BC1449F1BC0D2E900039BFE /* TimerViewController.swift */,
 				1B1A87F21B2D473400528FEA /* Main.storyboard */,
 				1B1A87F51B2D473400528FEA /* Images.xcassets */,
 				1B1A87F71B2D473400528FEA /* LaunchScreen.xib */,
@@ -192,8 +210,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B1A88111B2D53A500528FEA /* kakutei.jpg in Resources */,
 				1B1A87F41B2D473400528FEA /* Main.storyboard in Resources */,
+				1B1A880F1B2D48FA00528FEA /* 宇宙.jpg in Resources */,
+				1B33C2E11BC0E4370068B99D /* デジタル.jpg in Resources */,
+				1B33C2DF1BC0E3460068B99D /* 海.jpg in Resources */,
 				1B1A87F91B2D473400528FEA /* LaunchScreen.xib in Resources */,
+				1B33C2E31BC0E58B0068B99D /* dejitaru2.jpg in Resources */,
 				1B1A87F61B2D473400528FEA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B1A87F11B2D473400528FEA /* ViewController.swift in Sources */,
+				1BC144A01BC0D2E900039BFE /* TimerViewController.swift in Sources */,
 				1B1A87EF1B2D473400528FEA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +429,7 @@
 				1B1A880A1B2D473400528FEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B1A880B1B2D473400528FEA /* Build configuration list for PBXNativeTarget "TimerTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +438,7 @@
 				1B1A880D1B2D473400528FEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
